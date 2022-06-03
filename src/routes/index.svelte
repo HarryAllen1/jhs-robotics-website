@@ -6,3 +6,4 @@
 	frameborder="0"
 	height="500"
 />
+<a href="https://discord.gg/FdFkZFJa3H">Join our Discord Server!</a>
