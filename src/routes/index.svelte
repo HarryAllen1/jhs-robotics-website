@@ -1,9 +1,4 @@
-<marquee style="font-size: xx-large; font-weight: bold;">JHS Robotics Club</marquee>
-<a href="https://gofund.me/4048a9e8">go donate now</a>
-<iframe
-	src="https://www.gofundme.com/f/jhs-robotics-club/widget/large/"
-	title="Go Fund Me"
-	frameborder="0"
-	height="500"
-/>
-<a href="https://discord.gg/FdFkZFJa3H">Join our Discord Server!</a>
+<svelte:head>Home - JHS Robotics Club</svelte:head>
+
+<h1>First meeting:</h1>
+<p>June 7th in room 166. 2:50-3:30 pm</p>
