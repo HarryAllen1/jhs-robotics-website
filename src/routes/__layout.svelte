@@ -1,8 +1,9 @@
 <script>
+  import GithubIcon from '$lib/githubIcon.svelte';
   import '../app.scss';
 </script>
 
-<div class="top-0 mb-4 px-6 text-xl text-black w-full border-b z-20">
+<nav class="top-0 mb-4 px-6 text-xl text-black w-full border-b z-20">
   <div class="py-4 pr-4 flex justify-between items-center">
     <div class="flex items-center space-x-4 md:space-x-0">
       <a href="/">
@@ -16,8 +17,20 @@
     <a class="mx-2" href="https://discord.gg/FdFkZFJa3H" target="_blank">Discord Server</a>
     <a class="mx-2" href="https://gofund.me/4048a9e8">Go Fund Me</a>
   </div>
-</div>
+</nav>
 
 <main class="prose py-4 px-8">
   <slot />
 </main>
+
+<footer class="bottom-0 mt-4 px-6 text-xl text-black w-full border-t z-20">
+  <div class="py-4 pr-4 flex justify-between items-center">
+    <a
+      href="https://github.com/MajesticString/jhs-robotics-website"
+      class="active:border-none active:outline-none"
+      target="_blank"
+    >
+      <GithubIcon />
+    </a>
+  </div>
+</footer>
