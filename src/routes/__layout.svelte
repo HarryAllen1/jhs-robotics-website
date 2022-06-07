@@ -1,4 +1,5 @@
 <script>
+  import logo from '$lib/images/logo.png';
   import GithubIcon from '$lib/githubIcon.svelte';
   import '../app.scss';
 </script>
@@ -6,9 +7,11 @@
 <nav class="top-0 mb-4 px-6 text-xl text-black w-full border-b z-20">
   <div class="py-4 pr-4 flex justify-between items-center">
     <div class="flex items-center space-x-4 md:space-x-0">
-      <a href="/">
+      <a href="/" class="flex flex-row items-center">
+        <img src={logo} alt="JHS Robotics Logo" class="h-16 mr-4" />
         <span class="text-red-600 font-bold">JHS</span>
-        <span class="text-blue-700">Robotics Club</span>
+        &nbsp;
+        <span class="text-blue-800">Robotics Club</span>
       </a>
     </div>
 

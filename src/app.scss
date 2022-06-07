@@ -1,3 +1,8 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: 'Freshman Font';
+  src: url('./lib/Freshman-POdx.ttf');
+}
