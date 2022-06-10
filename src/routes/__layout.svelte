@@ -43,7 +43,7 @@
   </div>
 </nav>
 
-<main class="prose py-4 px-8 text-[#bdc1c6]">
+<main class="prose py-4 px-8 dark:text-[#bdc1c6]">
   <slot />
 </main>
 
