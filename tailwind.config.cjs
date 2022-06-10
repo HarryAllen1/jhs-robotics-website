@@ -2,6 +2,7 @@
  * @type {import('tailwindcss/tailwind-config').TailwindConfig}
  */
 const config = {
+  darkMode: 'class',
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {
