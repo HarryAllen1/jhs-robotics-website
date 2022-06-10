@@ -3,7 +3,7 @@
   import '../app.scss';
   import { onMount } from 'svelte';
   import { darkMode } from '$lib/darkMode';
-  import DarkModeToggle from '$lib/darkModeToggle.svelte';
+  import DarkModeToggle from '$lib/DarkModeToggle.svelte';
 
   onMount(() => {
     if (!localStorage.getItem('theme')) {
