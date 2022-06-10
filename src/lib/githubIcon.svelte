@@ -6,6 +6,7 @@
   aria-hidden="true"
   height="24"
   viewBox="0 0 16 16"
+  fill="currentColor"
   version="1.1"
   width="24"
   data-view-component="true"

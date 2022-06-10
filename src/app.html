@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%sveltekit.assets%/favicon.png" />
@@ -8,14 +8,26 @@
     <meta property="og:title" content="JHS Robotics Club" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://jhs-robotics-website.pages.dev" />
-
+    <script>
+      try {
+        if (
+          localStorage.getItem('theme') === 'dark' ||
+          (!localStorage.getItem('theme') &&
+            window.matchMedia('(prefers-color-scheme: dark)').matches)
+        ) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      } catch (_) {}
+    </script>
     <link
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
       rel="stylesheet"
     />
     %sveltekit.head%
   </head>
-  <body>
+  <body class="bg-white dark:bg-[#202124]">
     %sveltekit.body%
   </body>
 </html>
