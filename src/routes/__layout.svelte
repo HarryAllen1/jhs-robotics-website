@@ -14,8 +14,13 @@
     }
     $darkMode = localStorage.getItem('theme') === 'dark';
     darkMode.subscribe(() => {
-      if (!$darkMode) document.documentElement.classList.remove('dark');
-      else document.documentElement.classList.add('dark');
+      if (!$darkMode) {
+        document.documentElement.classList.remove('dark');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
+      }
     });
   });
 </script>
