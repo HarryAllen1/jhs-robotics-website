@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { darkMode } from './darkMode';
 
   const switchThemes = () => {
