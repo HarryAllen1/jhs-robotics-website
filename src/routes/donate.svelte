@@ -1,3 +1,10 @@
+<svelte:head>
+  <title>Donate - JHS Robotics Club</title>
+  <meta property="og:title" content="Donate - JHS Robotics Club" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jhs-robotics-website.pages.dev/donate" />
+</svelte:head>
+
 <h1>Donate to the Club!</h1>
 <p>
   Currently, the GoFundMe has been shut down since it is near impossible for the bookkeeper to keep
