@@ -2,7 +2,7 @@
   <title>Home - JHS Robotics Club</title>
   <meta property="og:title" content="JHS Robotics Club" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://jhs-robotics-website.pages.dev" />
+  <meta property="og:url" content="https://jhsrobotics.tech" />
 </svelte:head>
 
 <h1><strike> First meeting: </strike> First meeting is over!</h1>

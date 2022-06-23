@@ -2,7 +2,7 @@
   <title>Donate - JHS Robotics Club</title>
   <meta property="og:title" content="Donate - JHS Robotics Club" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://jhs-robotics-website.pages.dev/donate" />
+  <meta property="og:url" content="https://jhsrobotics.tech/donate" />
 </svelte:head>
 
 <h1>Donate to the Club!</h1>
