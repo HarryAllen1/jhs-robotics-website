@@ -7,3 +7,4 @@
 
 <h1>Donate to the Club!</h1>
 <p>you currently can't donate lmao</p>
+<p>during the school year, give money to the bookkeeper</p>
