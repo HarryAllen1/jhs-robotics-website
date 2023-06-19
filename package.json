@@ -36,6 +36,6 @@
   },
   "type": "module",
   "dependencies": {
-    "@rgossiaux/svelte-headlessui": "^1.0.2"
+    "@rgossiaux/svelte-headlessui": "^2.0.0"
   }
 }
